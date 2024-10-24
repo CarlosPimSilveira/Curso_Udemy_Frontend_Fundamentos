@@ -169,6 +169,27 @@
           /*      grow | shrink | basis         */  
           /* atalho para os 3 comandos! */
         }
+
+        .flex-container11 {
+            flex-direction: row;
+        }
+
+        .flex-container11 div {
+            background-color: green;
+            color: white;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .flex-container11 .div1 {
+            order: 1;
+            align-self: flex-end;
+        }
+
+        .flex-container11 .div2 {
+            order: 2;
+            align-self: center;
+        }
     </style>
 </head>
 <body>
@@ -236,6 +257,13 @@
     </div>
 
     <div class="flexbox flex-container10">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+    <div class="flexbox flex-container11">
         <div class="div1">1</div>
         <div class="div2">2</div>
         <div class="div3">3</div>
