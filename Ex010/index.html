@@ -7,6 +7,7 @@
     <style>
         html {
             font-size: 62.5%;
+            padding-bottom: 550px;
         }
 
         h1 {
@@ -37,6 +38,30 @@
             width: 90%;
             font-size: 1rem;
         }
+
+        .padding-em {
+            background-color: red;
+            
+        }
+
+        .padding-em p {
+            background-color: transparent;
+            margin: 0px;
+            padding: 1em; /* 10px */
+            font-size: 30px;
+        }
+
+        .viewport-container {
+            font-size: 3rem;
+ /*           width: 90vw;
+            height: 90vh;*/
+        }
+
+        .viewport {
+            width: 90vw;
+            height: 90vh;
+            background-color: rgba(0, 0, 255, 0.39);
+        }
     </style>
 </head>
 <body>
@@ -48,6 +73,15 @@
 
     <div class="porcentagem">
         <p>%</p>
+    </div>
+
+    <div class="padding-em">
+        <p>padding com em</p>
+    </div>
+
+    <div class="porcentagem viewport-container">
+        porcentagem
+        <div class="viewport">viewport</div>
     </div>
 </body>
 </html>
