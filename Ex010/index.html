@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medidas</title>
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+
+        h1 {
+            font-size: 2.4em;
+        }
+
+        b {
+            color: red;
+            font-size: 1em; /* aqui passa a valor o mesmo tamanho da unidade pai ou seja o p agora tem um tamanho de 30 e aqui tem uma % referente ao valor de la 1em = 30px */
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 3em;
+            width: 15em;
+            background-color: #ccc;
+        }
+
+        .porcentagem {
+            width: 60%; /* sempre relativa ao elemento pai */
+            height: 500px;
+            background-color: yellow;
+        }
+
+        .porcentagem p {
+            background-color: orange;
+            padding-top: 50%; /* sempre relacionada com o elemento pai(div) */
+            width: 90%;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unidades de medida</h1>
+    <p>
+    Lorem ipsum dolor sit amet consectetur, <b>teste</b>. Nulla sed labore laborum. Voluptatibus, delectus reprehenderit? Esse labore optio quam vitae, ipsa nihil eveniet! Labore provident nemo ipsam quaerat incidunt! Eaque?
+    Labore, veritatis? Deserunt necessitatibus quam a in, mollitia delectus totam voluptate est ipsum, suscipit aut illum alias inventore autem eveniet magnam eos, pariatur unde! Aut voluptate ullam ratione facere dicta!
+    </p>
+
+    <div class="porcentagem">
+        <p>%</p>
+    </div>
+</body>
+</html>
