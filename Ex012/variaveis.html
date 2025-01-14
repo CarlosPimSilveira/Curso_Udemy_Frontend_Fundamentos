@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <style>
+        html {
+            font-size: 62.5%;
+            --header-height: 15rem;
+        }
+
+        header {
+            width: 100%;
+            background-color: rgba(255, 0, 0, 0.3);
+            height: var(--header-height); /* 150 como a  fonta é 2rem aqui virou o dobro (15em = 300) */
+            font-size: 2rem;
+            position: fixed;
+            top: 0;
+        }
+
+        main {
+            min-height: calc(100vh - var(--header-height) - 2rem); /* usando a function calc para subtrair a altura 15rem é do header estamos subtraindo esse valor do main */
+            background-color: #ccc;
+            font-size: 2rem;
+            margin-top: var(--header-height);
+        }
+
+        footer {
+            height: 10rem;
+            font-size: 2rem;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        header
+    </header>
+    <main>
+        main
+    </main>
+    <footer>
+        footer
+    </footer>
+</body>
+</html>
