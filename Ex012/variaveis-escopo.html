@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopo de variáveis</title>
+    <style>
+        :root {
+            --color: red;
+        }
+
+        html {
+            font-size: 200%;
+        }
+
+        .container {
+            --color: orange;
+        }
+
+        p {
+            color: var(--color);
+        }
+        /* por conta do escopo de variavel ele sempre vai procurar o mais perto por esse motivo o p dentro da div1 virou verde pois é o mais perto. ja a div2 o mais perto seria o root onde ele encontra a cor vermelha */
+        .div1 {
+            --color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div class="div2">
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+    </div>
+    <p>Lorem, ipsum dolor.</p>
+</body>
+</html>
