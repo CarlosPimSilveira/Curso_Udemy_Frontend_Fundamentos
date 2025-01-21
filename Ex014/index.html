@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font-face</title>
+    <style>
+        @font-face {
+            font-family: nadia;
+            src: url(font/nadia/nadia-serif.ttf)  format("truetype"), /* informando para o pc qual o formato da fonte */
+                 url(font/nadia/nadia-serif.woff) format("woff"),
+                 url(font/nadia/nadia-serif.svg) format("svg");
+        }
+
+        h1 {
+            font-family: nadia;
+        }
+    </style>
+</head>
+<body>
+    <h1>Font-face</h1>
+</body>
+</html>
