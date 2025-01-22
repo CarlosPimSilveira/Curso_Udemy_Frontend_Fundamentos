@@ -7,7 +7,9 @@
     <style>
         @font-face {
             font-family: nadia;
-            src: url(font/nadia/nadia-serif.ttf)  format("truetype"), /* informando para o pc qual o formato da fonte */
+            src: local("Nadia Serif"),
+                 local("Nadia-Serif"), /* procura no sistema operacional a fonte caso nao tenha entao ele baixa pelos comandos abaixo */
+                 url(font/nadia/nadia-serif.ttf) format("truetype"), /* informando para o pc qual o formato da fonte */
                  url(font/nadia/nadia-serif.woff) format("woff"),
                  url(font/nadia/nadia-serif.svg) format("svg");
         }
