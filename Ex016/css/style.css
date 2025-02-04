@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Roboto", tahoma, arial, sans-serif;
+    margin: 0px;
+}
+
+.nav_controle {
+    background-color: #162028;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav_controle h1 {
+    margin: 0;
+    padding-left: 10%;
+}
+
+.nav_controle a {
+    text-decoration: none;
+    color: #425564;
+    margin: 0 15px;
+}
+
+.nav_links {
+    display: flex;
+    gap: 30px; 
+}
+
+.nav_controle_fundo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,
+h2 {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: normal;
+} 
