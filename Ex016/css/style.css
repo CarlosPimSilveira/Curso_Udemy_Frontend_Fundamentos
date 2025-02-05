@@ -64,5 +64,29 @@ h2 {
 
 .conteudo_min_foto {
     margin: 15px;
+    padding-bottom: 30px;
     /*gap: 30px;*/
+}
+
+.roda_pe {
+    background-color: #003d52;
+    padding: 6.5em;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: auto;
+}
+
+footer {
+    color: #6f8597;
+    background-color:  #0b171f;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
 }
