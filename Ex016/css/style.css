@@ -41,3 +41,28 @@ h2 {
     font-family: 'Viaoda Libre', cursive;
     font-weight: normal;
 } 
+
+.corpo_centro {
+    text-align: center;
+    width: 43%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.corpo_centro h2 {
+    padding: 90px 0 15px 0;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.conteudo_min {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_min_foto {
+    margin: 15px;
+    /*gap: 30px;*/
+}
